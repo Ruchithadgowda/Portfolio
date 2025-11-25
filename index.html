@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruchitha D - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">RD</div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon" id="themeIcon"></i>
+            </button>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Ruchitha D</span></h1>
+                <p class="hero-subtitle">Web Developer & Creative Problem Solver</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="about-image">
+                        <img src="assets/myimage.jpg" alt="Ruchitha Photo" class="profile-photo">
+                    </div>
+                <div class="about-text">
+                    <p>
+                        Welcome to my portfolio! I'm a passionate web developer with a strong foundation in 
+                        front-end and back-end technologies. I love creating beautiful, functional, and 
+                        user-friendly web applications that solve real-world problems.
+                    </p>
+                    <p>
+                        With a keen eye for design and attention to detail, I strive to deliver high-quality 
+                        solutions that exceed expectations. I'm always eager to learn new technologies and 
+                        take on challenging projects.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3>3+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>Fresher</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>5+</h3>
+                            <p>Skills & Technologies</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+    <div class="container">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-grid">
+
+            <!-- Frontend -->
+            <div class="skill-category">
+                <h3><i class="fas fa-code"></i> Frontend</h3>
+                <div class="skill-items">
+                    <div class="skill-item"><span class="skill-name">HTML</span><div class="skill-bar"><div class="skill-progress" data-progress="90"></div></div></div>
+                    <div class="skill-item"><span class="skill-name">CSS</span><div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div></div>
+                    <div class="skill-item"><span class="skill-name">JavaScript</span><div class="skill-bar"><div class="skill-progress" data-progress="80"></div></div></div>
+                    <div class="skill-item"><span class="skill-name">Flutter (Mobile UI)</span><div class="skill-bar"><div class="skill-progress" data-progress="75"></div></div></div>
+                </div>
+            </div>
+
+            <!-- Backend -->
+            <div class="skill-category">
+                <h3><i class="fas fa-server"></i> Backend</h3>
+                <div class="skill-items">
+                    <div class="skill-item"><span class="skill-name">Python</span><div class="skill-bar"><div class="skill-progress" data-progress="90"></div></div></div>
+                    <div class="skill-item"><span class="skill-name">REST API</span><div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div></div>
+                    <div class="skill-item"><span class="skill-name">SQL/MySQL</span><div class="skill-bar"><div class="skill-progress" data-progress="80"></div></div></div>
+                    <div class="skill-item"><span class="skill-name">MongoDB</span><div class="skill-bar"><div class="skill-progress" data-progress="70"></div></div></div>
+                    <div class="skill-item"><span class="skill-name">Firebase</span><div class="skill-bar"><div class="skill-progress" data-progress="75"></div></div></div>
+                </div>
+            </div>
+
+            <!-- AI/ML -->
+            <div class="skill-category">
+                <h3><i class="fas fa-brain"></i> AI / ML Skills</h3>
+                <div class="skill-items">
+                    <div class="skill-item"><span class="skill-name">Machine Learning</span><div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div></div>
+                    <div class="skill-item"><span class="skill-name">Deep Learning (TensorFlow, PyTorch)</span><div class="skill-bar"><div class="skill-progress" data-progress="80"></div></div></div>
+                    <div class="skill-item"><span class="skill-name">OpenCV</span><div class="skill-bar"><div class="skill-progress" data-progress="75"></div></div></div>
+                    <div class="skill-item"><span class="skill-name">Data Preprocessing</span><div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div></div>
+                    <div class="skill-item"><span class="skill-name">Scikit-learn</span><div class="skill-bar"><div class="skill-progress" data-progress="80"></div></div></div>
+                </div>
+            </div>
+
+            <!-- Data Analytics -->
+            <div class="skill-category">
+                <h3><i class="fas fa-chart-bar"></i> Data Analytics & Tools</h3>
+                <div class="skill-items">
+                    <div class="skill-item"><span class="skill-name">Pandas</span><div class="skill-bar"><div class="skill-progress" data-progress="90"></div></div></div>
+                    <div class="skill-item"><span class="skill-name">NumPy</span><div class="skill-bar"><div class="skill-progress" data-progress="90"></div></div></div>
+                    <div class="skill-item"><span class="skill-name">Power BI</span><div class="skill-bar"><div class="skill-progress" data-progress="70"></div></div></div>
+                    <div class="skill-item"><span class="skill-name">Data Visualization</span><div class="skill-bar"><div class="skill-progress" data-progress="80"></div></div></div>
+                </div>
+            </div>
+
+            <!-- Tools -->
+            <div class="skill-category">
+                <h3><i class="fas fa-tools"></i> Tools & Others</h3>
+                <div class="skill-items">
+                    <div class="skill-item"><span class="skill-name">Git</span><div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div></div>
+                    <div class="skill-item"><span class="skill-name">Figma</span><div class="skill-bar"><div class="skill-progress" data-progress="75"></div></div></div>
+                    <div class="skill-item"><span class="skill-name">Google Colab</span><div class="skill-bar"><div class="skill-progress" data-progress="90"></div></div></div>
+                    <div class="skill-item"><span class="skill-name">Data Structures & Algorithms</span><div class="skill-bar"><div class="skill-progress" data-progress="70"></div></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/campus1.jpeg" alt="Project Image" class="project-img">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="View project"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link" aria-label="View code"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Campus Utility Service</h3>
+                        <p>A multi-feature web application that helps manage campus activities. It includes real-time bus tracking, an automated canteen ordering system, and portals for faculty coordination. I led a 4-member team and focused on building practical tools that make campus operations smoother.
+                        Achievement: Won 1st place in the department hackathon.</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">full-stack</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Sqlite3</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/expense.jpeg" alt="Project Image" class="project-img">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="View project"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link" aria-label="View code"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Expense Tracker Application</h3>
+                        <p>A mobile app that helps users track daily expenses, set budgets, and view spending analytics. I built secure login features, connected the app to a backend API, and included graphs to help users understand their financial habits.</p>
+                        <div class="project-tags">
+                            <span class="tag">Flutter</span>
+                            <span class="tag">FastAPI</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/ecommerce.jpg" alt="Project Image" class="project-img">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="View project"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link" aria-label="View code"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-stack e-commerce solution with user authentication, product management, and payment integration.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML, CSS3</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/facerecognition.jpeg" alt="Project Image" class="project-img">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="View project"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link" aria-label="View code"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Face Recognition System</h3>
+                        <p>A real-time face detection and recognition system. I improved accuracy using image preprocessing and tuning detection parameters. This project helped me learn how computer vision models work behind the scenes.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Open CV</span>
+                            <span class="tag">Haar Cascades</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/bus.jpeg" alt="Project Image" class="project-img">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="View project"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link" aria-label="View code"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Live Bus Tracking System</h3>
+                        <p>A GPS-based system that shows the live location of buses on a map. Users can see real-time updates, making travel planning easier. I integrated GPS data with Firebase and displayed routes using Google Maps</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Google Maps API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>ruchithaadgowda@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 9380660954</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Hassan, Karnataka, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/ruchitha-d-67623334a" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Ruchithadgowda" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/ruchithadgowda?igsh=NWFnZm16MjQ3YTFm" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name <span class="required">*</span></label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <span class="error-message" id="nameError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message <span class="required">*</span></label>
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        <span class="error-message" id="messageError"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+                    <div class="form-success" id="formSuccess"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Ruchitha D. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
