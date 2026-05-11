@@ -41,7 +41,13 @@ body{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height:1.6;
   color:var(--text-primary);
-  background:var(--bg-primary);
+
+  background-image: url('assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
   transition:var(--transition);
   overflow-x:hidden;
 }
