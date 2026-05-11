@@ -125,7 +125,7 @@ body{
    ABOUT
    ------------------------- */
 .about{
-  background:var(--bg-secondary);
+  /* background:var(--bg-secondary); */
   padding:100px 0;
 }
 
