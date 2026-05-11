@@ -245,7 +245,7 @@ body{
 /* -------------------------
    PROJECTS
    ------------------------- */
-.projects{background:var(--bg-secondary)}
+/* .projects{background:var(--bg-secondary)} */
 /* responsive grid that centers cards and expands columns automatically */
 .projects-grid{
   display:grid;
