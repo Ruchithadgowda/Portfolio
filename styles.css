@@ -359,5 +359,31 @@ body{
 
 /* Utility: simple clearfix if needed */
 .clearfix::after{content:"";display:block;clear:both}
+/* =========================
+   REMOVE FLOATING WIDGETS
+   ========================= */
 
+iframe{
+    display:none !important;
+}
+
+div[style*="position: fixed"]{
+    display:none !important;
+}
+
+#chat-widget,
+.chat-widget,
+#chatbot,
+.chatbot,
+#ai-widget,
+.ai-widget,
+#assistant-widget,
+.assistant-widget{
+    display:none !important;
+}
+
+/* Prevent random floating buttons */
+body > div:last-child{
+    display:none !important;
+}
 /* End of stylesheet */
