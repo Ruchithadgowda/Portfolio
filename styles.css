@@ -216,7 +216,7 @@ body{
 /* Outer grid that holds the 4 category cards in one row on desktop */
 .skills-grid{
   display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));/* EXACTLY 4 columns on desktop */
+  grid-template-columns: repeat(3, 1fr);/* EXACTLY 4 columns on desktop */
   gap:2rem;
   width:100%;
   align-items:start;
@@ -229,6 +229,9 @@ body{
   border-radius:15px;
   box-shadow:0 5px 15px var(--shadow);
   transition:var(--transition);
+  height:100%;
+  display:flex;
+  flex-direction:column;
 }
 .skill-category:hover{transform:translateY(-5px);box-shadow:0 10px 25px var(--shadow-lg)}
 .skill-category h3{color:var(--primary-color);margin-bottom:1rem;font-size:1.25rem;display:flex;align-items:center;gap:0.5rem}
@@ -328,15 +331,12 @@ body{
    ------------------------- */
 @media (max-width:1200px){
   /* keep 4 columns but let minimum column shrink a bit */
-  .skills-grid{grid-template-columns:repeat(4,minmax(180px,1fr));gap:1.25rem}
-}
+  .skills-grid{grid-template-columns:repeat(2,1fr);
+}}
 
-@media (max-width:1024px){
+@media (max-width:768px){
   /* tablet: switch to 2 columns for better readability */
-  .skills-grid{grid-template-columns:repeat(2,1fr)}
-  .about-content{grid-template-columns:1fr; text-align:center}
-  .about-image{justify-content:left}
-  .contact-content{grid-template-columns:1fr}
+  .skills-grid{grid-template-columns:1fr;}
 }
 
 @media (max-width:768px){
