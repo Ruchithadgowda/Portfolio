@@ -216,7 +216,7 @@ body{
 /* Outer grid that holds the 4 category cards in one row on desktop */
 .skills-grid{
   display:grid;
-  grid-template-columns: repeat(2, 1fr);/* EXACTLY 4 columns on desktop */
+  grid-template-columns: repeat(3, 1fr);/* EXACTLY 4 columns on desktop */
   gap:2rem;
   width:100%;
   align-items:start;
