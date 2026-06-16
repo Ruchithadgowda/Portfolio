@@ -221,6 +221,9 @@ body{
   width:100%;
   align-items:start;
 }
+.skill-category{
+    height:100%;
+}
 
 /* Skill card */
 .skill-category{
@@ -329,7 +332,7 @@ body{
 /* -------------------------
    RESPONSIVE
    ------------------------- */
-@media (max-width:1200px){
+@media (max-width:1204px){
   /* keep 4 columns but let minimum column shrink a bit */
   .skills-grid{grid-template-columns:repeat(2,1fr);
 }}
